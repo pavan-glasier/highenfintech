@@ -1,0 +1,7 @@
+build
+vendor
+composer.phar
+composer.lock
+phpunit.phar
+phpunit.xml
+modd.conf

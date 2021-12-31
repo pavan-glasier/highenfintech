@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#ui-datepicker-div {
+   display: none;
+   position: absolute !important;
+   z-index: 999999999 !important;
+}
+
+/*--------------------------------------------------------------
+# Forms, Buttons
+--------------------------------------------------------------*/
+.bft-front-form.bft-horizontal {
+    /*display: inline-block;*/ /* 29.03.2021 */
+    overflow: hidden;
+    width: 100%;
+}
+
+.bft-front-form.bft-vertical {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bft-front-form.bft-oneline {
+    /*display: inline-block;*/ /* 29.03.2021 */
+    overflow: hidden;
+    width: 100%;
+}
+
+.bft-inline-label .bft-form-group,
+.bft-block-label .bft-form-group {
+    margin-bottom: 0.626rem;
+    display: block;
+    width: 100%;
+}
+
+.bft-front-form.bft-inline-label label {
+    text-align: left; /* 29.03.2021 */
+    margin-right: 0.313rem;
+    vertical-align: middle;
+}
+
+.bft-front-form.bft-inline-label .bft-radio label {
+    vertical-align: top;
+}
+
+.bft-front-form.bft-block-label label {
+    display: block;
+    margin-bottom: 0.313rem;
+}
+
+.bft-front-form .radio label, .bft-front-form .checkbox label {
+    vertical-align: top;
+}
+
+.bft-front-form .bft-form-group ul {
+    list-style: none !important;
+    margin: 0;
+    padding: 0 0;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.bft-front-form .bft-form-group ul li {
+    list-style: none !important;
+}
+
+.bft-front-form.bft-vertical.bft-inline-label input[type="submit"] {
+    margin-left: 0;
+}
+
+.bft-front-form input[type="radio"], .bft-front-form input[type="checkbox"] {
+    margin-right: 0.313rem;
+}
+
+.bft-front-form fieldset {
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.bft-front-form button,
+.bft-front-form input[type="button"],
+.bft-front-form input[type="reset"],
+.bft-front-form input[type="submit"] {
+
+}
+
+.bft-front-form input[type="text"],
+.bft-front-form input[type="email"],
+.bft-front-form input[type="url"],
+.bft-front-form input[type="password"],
+.bft-front-form input[type="search"],
+.bft-front-form input[type="number"],
+.bft-front-form input[type="tel"],
+.bft-front-form input[type="range"],
+.bft-front-form input[type="date"],
+.bft-front-form input[type="month"],
+.bft-front-form input[type="week"],
+.bft-front-form input[type="time"],
+.bft-front-form input[type="datetime"],
+.bft-front-form input[type="datetime-local"],
+.bft-front-form input[type="color"] {
+    width: 100% !important;
+}
+
+textarea {
+    width: auto;
+}
+
+/* Block or inline submit button div - from visual designer */
+.bft-form-group.bft-btn-block {
+    display: block !important;
+    width: 100% !important;
+}
+
+.bft-form-group.bft-btn-inline {
+    display: inline-block !important;
+}
+
+/**
+* Newsletters archive table
+*/
+table.arigato-archive tbody tr:nth-child(even) {
+	  background-color: #f2f2f2;
+}
+
+.arigato-pagination a {
+	margin-right: 5em;
+}
+
+/**
+ * Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+/**
+ *  >= 480px
+ */
+@media only screen and (min-width: 30rem) {
+
+    .bft-front-form {
+        font-size: 90%;
+    }
+
+}
+
+
+/**
+ *  >= 600px
+ */
+
+@media only screen and (min-width: 37.5rem) {
+
+    .bft-front-form {
+        font-size: 100%;
+    }
+
+    .bft-vertical.bft-form-group {
+        width: auto !important;
+    }
+
+    .bft-horizontal .bft-form-group {
+        display: inline-table;
+        margin-bottom: 0.626rem;
+        vertical-align: middle;
+        width: calc(50% - 0.626rem) !important;
+    }
+
+    .bft-horizontal .bft-form-group:nth-of-type(2n+1) {
+        margin-right: 0.626rem !important;
+    }
+
+    .bft-horizontal .bft-form-group:nth-of-type(2n) {
+        margin-right: 0rem !important;
+    }
+
+    .bft-front-form input[type="text"],
+    .bft-front-form select {
+        max-width: 18.75em;
+    }
+
+    /* oneline, inline-label */
+    .bft-oneline {
+        width: 100%;
+    }
+
+    .bft-oneline.bft-inline-label .bft-form-group, .bft-oneline.bft-block-label .bft-form-group {
+        display: inline !important;
+        vertical-align: middle;
+    }
+
+    .bft-oneline.bft-inline-label label {
+        width: auto !important;
+        display: inline;
+    }
+    .bft-oneline input[type="text"],
+    .bft-oneline select {
+        width: auto !important;
+        max-width: 7.5em !important;
+        display: inline;
+    }
+
+    /* horizontal, inline-label */
+    .bft-horizontal.bft-inline-label label {
+        display: inline-block;
+        width: calc(35% - 0.626rem);
+        text-align: right; /* 29.03.2021 */
+    }
+    .bft-horizontal.bft-inline-label input[type="text"],
+    .bft-horizontal.bft-inline-label select {
+        width: 65% !important;
+        display: inline-block; /* 29.03.2021 */
+    }
+
+    .bft-horizontal.bft-inline-label input[type="submit"], .bft-vertical.bft-inline-label input[type="image"] {
+        margin-left: calc(35% - 0.313rem) !important;
+    }
+
+    .bft-horizontal.bft-inline-label .bft-checkbox label{
+        margin-left: calc(35% - 0.313rem) !important;
+        width: 65% !important;
+        text-align: left;
+    }
+
+    .bft-checkbox input[type="checkbox"] {
+        margin-left: 0 !important;
+    }
+
+    .bft-horizontal.bft-inline-label .bft-radio ul > li > label {
+        /*margin-left: calc(35% + 0.313rem) !important;*/
+        width: 100% !important;
+        text-align: left;
+    }
+
+
+      /* vertical, inline-label */
+    .bft-vertical.bft-inline-label label {
+        width: 25%;
+        display: inline-block;
+        text-align: right; /* 29.03.2021 */
+    }
+    .bft-vertical.bft-inline-label input[type="text"] {
+        width: calc(75% - 0.626rem) !important;
+        display: inline-block; /* 29.03.2021 */
+    }
+    .bft-vertical.bft-inline-label input[type="submit"], .bft-vertical.bft-inline-label input[type="image"] {
+        margin-left: calc(25% + 0.626rem) !important;
+    }
+
+    .bft-vertical.bft-inline-label .bft-checkbox label{
+        margin-left: calc(25% + 0.626rem) !important;
+        width: 75% !important;
+        text-align: left;
+    }
+
+
+    .bft-vertical.bft-inline-label .bft-radio ul > li > label {
+        /*margin-left: calc(35% + 0.313rem) !important;*/
+        width: 100% !important;
+        text-align: left;
+    }
+
+    /* vertical, block-label */
+    .bft-vertical.bft-block-label input[type="text"] {
+        width: 100% !important;
+    }
+
+    .bft-horizontal.bft-block-label .bft-form-group {
+        width: calc(50% - 0.9rem) !important;
+    }
+
+}
+
+/**
+ *  >= 910px
+ */
+
+@media screen and (min-width: 56.875rem) {
+
+}

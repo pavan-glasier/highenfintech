@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsletters - Contact Form 7 Subscribers\n"
+"POT-Creation-Date: 2015-06-18 21:27+0200\n"
+"PO-Revision-Date: 2015-06-18 21:27+0200\n"
+"Last-Translator: Tribulant Software <support@tribulant.com>\n"
+"Language-Team: Tribulant Software <support@tribulant.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../cf7.php:58
+msgid ""
+"You must have the Newsletter plugin installed and activated in order to use "
+"this."
+msgstr ""
+
+#: ../cf7.php:74
+#, php-format
+msgid ""
+"The Contact Form 7 Subscribers extension requires the %sNewsletter plugin%s v"
+"%s at least."
+msgstr ""
+
+#: ../cf7.php:140
+msgid "Newsletters"
+msgstr ""
+
+#: ../cf7.php:292
+#, php-format
+msgid "Newsletters - Contact Form 7 Subscribers: %s"
+msgstr ""
+
+#: ../cf7.php:307
+msgid "Contact Form 7 Subscribers"
+msgstr ""
+
+#: ../cf7.php:310
+msgid ""
+"Capture newsletter subscribers into the Newsletter plugin from your Contact "
+"Form 7 plugin forms."
+msgstr ""
+
+#: ../vendors/class.update.php:17
+msgid "Something went wrong!"
+msgstr ""
+
+#: ../vendors/class.update.php:18
+#, php-format
+msgid "Please try again or %scontact us%s."
+msgstr ""
+
+#: ../views/pane.php:9
+#, php-format
+msgid "Generate a %s subscribe checkbox for your form. See the %s"
+msgstr ""
+
+#: ../views/pane.php:18
+msgid "Name"
+msgstr ""
+
+#: ../views/pane.php:24
+msgid "Checked by default?"
+msgstr ""
+
+#: ../views/pane.php:26
+msgid "Yes, check by default"
+msgstr ""
+
+#: ../views/pane.php:30
+msgid "Checkbox Label"
+msgstr ""
+
+#: ../views/pane.php:32
+msgid "Please subscribe me to your newsletters"
+msgstr ""
+
+#: ../views/pane.php:36
+msgid "Mailing List(s)"
+msgstr ""
+
+#: ../views/pane.php:38
+msgid "Let user choose"
+msgstr ""
+
+#: ../views/pane.php:39
+msgid "Predefined lists"
+msgstr ""
+
+#: ../views/pane.php:57
+msgid "No mailing lists are available."
+msgstr ""
+
+#: ../views/pane.php:71
+msgid "Custom Fields"
+msgstr ""
+
+#: ../views/pane.php:84
+msgid "for field name:"
+msgstr ""
+
+#: ../views/pane.php:91
+msgid "No custom fields are available."
+msgstr ""
+
+#: ../views/pane.php:103
+msgid "Insert Tag"
+msgstr ""
